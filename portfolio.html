@@ -4,25 +4,39 @@
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <title>Portfolio</title>
     <style>
-
+        body{
+            background-color: black;
+        }
+        #all-h2-style h2{
+            color: rgba(107, 183, 224, 0.697);
+            font-family:Roboto;
+        }
+        .all{
+            color: white;
+            font-family:monospace;
+        }
+        .proj1{
+            color: coral;
+        }
+        #marq{
+            font-size:15px;
+        }
     </style>
 </head>
-    <body>
-        <div class="all">
+<body>
+    <div class="all">
+        <h1 style="color: rgb(255, 0, 0); text-align: center; font-size: 45px;">John Doe</h1>
+        <div id="all-h2-style">
+            <hr color="gray">
             <div>
-                <h1>John Doe</h1>
-            </div>
-            <div>
-                <div>
-                    <h2>Web Developer</h2>
-                </div>
+                <h2>Web Developer</h2>
                 <p>Welcome to my portfolio! I am a passionate web developer with a focus on creating interactive and user-friendly websites. Feel free to explore my work and contact me for any inquiries.</p>
             </div>
             <div>
                 <div>
                     <h2>Skills</h2>
                 </div>
-                <div>
+                <div id="list">
                     <ul>
                         <li>HTML 5</li>
                         <li>CSS3</li>
@@ -32,16 +46,27 @@
                     </ul>
                 </div>
             </div>
-            <h2>Projects</h2>
-                <ol>
-                    <li><b>Portfolio Website</b></li>
-                    <p>A personal portfolio webst=ite showcasing my skills and projects.</p>
-                    <li><b>Task Managment App</b></li>
-                    <p>An inter view web app for managing tasks and to-do list.</p>
-                </ol>
+            <div>
+                <h2>Projects</h2>
+                <div>
+                    <ol>
+                        <div class="proj1">
+                            <li><b>Portfolio Website</b></li>
+                        </div>
+                        <p>A personal portfolio website showcasing my skills and projects.</p>
+                        <div class="proj1">
+                            <li><b>Task Managment App</b></li>
+                        </div>
+                        <p>An inter view web app for managing tasks and to-do list.</p>
+                    </ol>
+                </div>
+            </div>
                 <h2>Contact</h2>
                 <p>You can reach me at:<a href ="mailto:john@example.com">john@example.com</a> </p>
-                <p>© 2023 John Doe.All rights resverd.</p>
         </div>
-    </body>
+    </div>
+    <footer>
+        <marquee id="marq"><p style="color:azure">© 2023 John Doe. All rights resverd.</p></marquee>
+    </footer>
+</body>
 </html>
