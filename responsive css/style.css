@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    background-color: var(--bcolor);
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+:root{
+    --bcolor: rgb(27, 27, 27);
+}
+#sidebar{
+    max-height: 300px;
+    min-height: 160px;
+    min-width: 25%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.188);
+    float: left;
+}
+#main-content{
+    min-width: 65%;
+    padding-top: 35px;
+    padding-left: 500px;
+}
+footer{ 
+    padding: 15px 0px;
+    margin-top: 80px;
+    background-color: var(--bcolor);
+    color: white;
+    text-align: center;
+    min-width: 100%;
+}
