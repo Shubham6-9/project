@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+#main{
+    background: linear-gradient( rgba(177, 1, 177, 0.888), white);
+    padding: 10px;
+    margin-top: 180px;
+}
+.box{
+    height: 100%;
+    width: 21.9%;
+    margin: 6px;
+    padding: 15px;
+    text-align: left;
+    border-radius: 12px;
+    background-color: white;
+    display: inline-block;
+}
+.img{
+    padding: 5px;
+    width: 46%;
+    height: 107px;
+    display: inline-block;
+}
+.box:last-child .img{
+    height: 89px;
+}
